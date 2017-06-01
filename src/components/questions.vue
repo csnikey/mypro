@@ -1,16 +1,14 @@
 <template>
-  <div	class="hello">
-    <h1>{{ msg }}</h1>
-  </div>
-
+<div>
+问题列表{{msg}}</div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'questions',
   data () {
     return {
-      msg: 'my first app here'
+      msg: 'my first app'
     }
   }
 }
@@ -18,9 +16,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hello{
-	padding: 20px;
-	
 
-}
 </style>

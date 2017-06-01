@@ -3,13 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
 Vue.config.productionTip = false
-
+// 编译less文件
+import '@/assets/less/style.less'
 /* eslint-disable no-new */
+
 new Vue({
   el: '#app',
   router,
-  template: '<App/>',
+  template: '<app/>',
   components: { App }
 })
+
+
